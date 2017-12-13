@@ -108,6 +108,7 @@
     password: changeme
     role_attr_flags: NOSUPERUSER,NOCREATEROLE,NOCREATEDB
     state: present
+    encrypted: yes
   become: yes
   become_user: postgres
 
